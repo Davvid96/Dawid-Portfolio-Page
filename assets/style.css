@@ -36,7 +36,7 @@
 .nav-container {
   display: flex;
   width: 30%;
-  min-width: 300px;
+  min-width: 350px;
   justify-content: space-around;
   margin: auto 0;
   padding-right: 10px;
@@ -68,10 +68,11 @@
 .page-wrapper {
   display: grid;
   border: var(--primary-border) black;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 120px 1fr;
   grid-template-rows: auto auto 150px;
   row-gap: 20px;
   background-color: var(--body-color);
+  padding: 15px 5px;
 }
 
 /* Section Title */
