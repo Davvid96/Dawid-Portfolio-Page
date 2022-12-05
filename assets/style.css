@@ -1,7 +1,9 @@
 :root {
+--primary-color: aquamarine;
+--secondary-color: rgb(56, 54, 54);
+--third-color: rgb(201, 200, 200);
   /* --pageColor: #blue;
 --border: 2px solid rgb(23, 46, 219);
---font-color: rgb(206, 34, 34);
 --header-color: rgb(224, 20, 224); */
 }
 
@@ -11,7 +13,7 @@
 
 .header-container {
   display: flex;
-  background-color: rgb(66, 66, 66);
+  background-color: var(--secondary-color);
   justify-content: space-between;
   height: 100px;
   flex-wrap: wrap;
@@ -19,7 +21,7 @@
 
 .header-title-background {
   display: flex;
-  background-color: rgb(181, 245, 224);
+  background-color: var(--primary-color);
   height: 80px;
   margin: auto 0;
   padding: 0 20px 0 40px;
@@ -27,6 +29,7 @@
 
 .header-title {
   margin: auto 0;
+  color: var(--secondary-color);
 }
 
 .nav-container {
@@ -41,8 +44,9 @@
 .nav-link {
   color: aquamarine;
   padding: 10px 5px 0px;
-  border-bottom: 2px solid aquamarine;
+  border-bottom: 2px solid var(--primary-color);
   text-decoration: none;
+  font-size: 24px;
 }
 
 .hero-banner {
@@ -53,7 +57,7 @@
 }
 
 .hero-subtitle {
-  background-color: rgb(58, 197, 218);
+  background-color: var(--primary-color);
   margin: auto 50px 20px;
 }
 
@@ -62,6 +66,7 @@
   height: 100%;
   border-right: 2px solid black;
   padding-right: 10px;
+  
 }
 
 body {
@@ -70,7 +75,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
   max-width: 1920px;
-  background-color: rgba(134, 131, 131, 0.21);
+  background-color: whitesmoke;
 }
 
 .page-wrapper {
@@ -79,7 +84,7 @@ body {
   grid-template-columns: 100px 1fr;
   grid-template-rows: 200px auto 150px;
   row-gap: 20px;
-  background-color: white;
+  background-color: var(--third-color);
 }
 
 .portfolio-container {
@@ -116,7 +121,7 @@ body {
 }
 
 .work-item {
-  border: 5px solid aquamarine;
+  border: 5px solid var(--primary-color);
   background-size: cover;
   display: flex;
   text-decoration: none;
@@ -128,7 +133,7 @@ body {
 }
 
 .work-item-caption {
-  background-color: aquamarine;
+  background-color: var(--primary-color);
   height: max-content;
   margin: auto 0 50px;
   padding: 10px;
@@ -136,7 +141,7 @@ body {
 
 .work-item-heading,
 .work-item-subheading {
-  color: black;
+  color: var(--secondary-color);
 }
 
 .page-section-contact {
@@ -146,6 +151,11 @@ body {
 
 .contact-link {
   margin: auto 0;
+  color: var(--secondary-color);
+  padding: 10px 5px 0px;
+  border-bottom: 4px solid var(--secondary-color);
+  text-decoration: none;
+  font-size: 24px;
 }
 
 h1,
@@ -204,5 +214,6 @@ p {
 
   .contact-link {
     display: block;
+    font-size: larger;
   }
 }
