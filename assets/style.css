@@ -1,7 +1,8 @@
 :root {
 --primary-color: aquamarine;
 --secondary-color: rgb(56, 54, 54);
---third-color: rgb(201, 200, 200);
+--body-color: rgb(201, 200, 200);
+--outside-color: whitesmoke;
   /* --pageColor: #blue;
 --border: 2px solid rgb(23, 46, 219);
 --header-color: rgb(224, 20, 224); */
@@ -76,16 +77,22 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
   max-width: 1920px;
-  background-color: whitesmoke;
+  background-color: var(--outside-color);
 }
 
 .page-wrapper {
   display: grid;
   border: 2px solid rgb(5, 0, 0);
   grid-template-columns: 100px 1fr;
-  grid-template-rows: 200px auto 150px;
+  grid-template-rows: auto auto 150px;
   row-gap: 20px;
-  background-color: var(--third-color);
+  background-color: var(--body-color);
+}
+
+.about-text {
+  padding: 10px;
+  font-size: 18px;
+  height: max-content;
 }
 
 .portfolio-container {
