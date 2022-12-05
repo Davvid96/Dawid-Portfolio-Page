@@ -97,6 +97,7 @@ body {
   padding: 10px;
   font-size: 18px;
   height: max-content;
+  margin-bottom: 5px;
 }
 
 /* Portfolio Grid Section */
@@ -207,7 +208,7 @@ body {
     grid-template-areas: none;
   }
 
-  .surf-report {
+  .horiseon {
     grid-area: auto;
   }
 
