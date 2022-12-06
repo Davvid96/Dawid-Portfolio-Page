@@ -1,18 +1,27 @@
 # Unit 2 Challenge: Portfolio
 
-## Your Task
+## Table of Contents:
+For the ease of navigating around:
 
-This week, you'll build a portfolio page, which you can add to as the course progresses. 
+* [The Task](#the-task)
+* [Acceptance Criteria](#this-was-the-acceptance-criteria-for-the-project)
+* [Example Provided](#example-provided)
+* [End result](#end-result)
+* [Conclusion](#conclusion)
+* [Deployment](#deployment)
+* [License](#license)
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+## The Task:
 
-With these points in mind, in this challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+This week's challenge was to create a portfolio page, which I can add to as the course progresses. 
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+The aim of this portfolio is to showcase my skills to potential future employers, when I start to look for the next stop in my career. It seems that a strong portfolio can be very helpful or even necessary in a modern day setting in order to attract employers, and stand out from competition. Effectively this will be a work in progress portfolio site, as I currently do not have enough to showcase in it, however will add to it as we progress through the Bootcamp.
 
-## Acceptance Criteria
+In this challenge specifically I have applied some of the core skills I have recently learned, including; flexbox/grids, media queries, and CSS variables. Which was a good ground to practice those, which I found to be challenging but very useful and fun at the same time.
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+**Side Note:** As per the challenge readme file, I did not have enough web applications to showcase at the moment. Thus currently I have only linked my 'Horiseon' web page, but have prepped space for future additions using dummy links and photos, thus everythins is prepared for when I do have the applications.
+
+## This was the acceptance criteria for the project:
 
 * When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you
 * When one of the links in the navigation is clicked then the UI scrolls to the corresponding section
@@ -21,55 +30,25 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 * When images of the applications are clicked then the user is taken to that deployed application
 * When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
 
-## Mock-Up
+## Example provided:
 
-The following animation shows the web application's appearance and functionality:
+The following gif was provided in the challenge folder, and the end result had to look similar, however we were given the freedom to use own colors and images;
 
 ![portfolio demo](./images/01-css-challenge-demo.gif)
 
-Feel free to use your own colors and images.
+## End result:
 
-## Grading Requirements
+This is a screenshot of what my portfolio website looks like at the time of submitting:
 
-This challenge is graded based on the following criteria: 
+![portfolio screenshot](./images/portfolio-screenshot.jpg)
 
-### Technical Acceptance Criteria: 40%
+## Conclusion:
+This was my first Portfolio with the intent to showcase my work, by all means with a set of guidelines outlined prior to starting which made it a lot more interesting as I got to practice my newly gained skills and knowledge. A very fun and educational activity, which naturally boosted my skills as well as confidence. Which will hopefully come useful in the future challenges to come! I can also already see number of points that could be corrected or improved, however will leave the page as it is and await feedback on what could be improved.
 
-* Satisfies all of the above acceptance criteria.
+## Deployment:
 
-### Deployment: 32%
+* Following is a link to the deployed version of the Website: 'https://davvid96.github.io/Dawid-Portfolio-Page/'
 
-* Application deployed at live URL.
+## License:
 
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the mock-up functionality provided in the challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
----
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+***MIT License*** has been used for the purpose of this challenge. File located in the Repository.
